@@ -1,0 +1,6 @@
+{
+  "name": "ZR CAR Centro Automotivo",
+  "description": "Website oficial da ZR CAR Centro Automotivo em Santos, SP. Orçamentos rápidos, agendamentos online e serviços multimarcas de alta qualidade.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
