@@ -547,12 +547,16 @@ export default function App() {
 
           </div>
 
-          <div className="border-t border-slate-800/85 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-550 font-mono">
+          <div className="border-t border-slate-800/85 mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-[11px] md:text-xs text-slate-400 font-mono">
             <span>
               © {new Date().getFullYear()} ZR CAR. R. Almeida de Moraes, 200 - Vila Matias, Santos - SP.
             </span>
-            <div className="flex items-center gap-1 text-slate-650">
-              <span>Classificação 4.8 Estrelas de Satisfação</span>
+            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
+              <span className="text-slate-500">
+                Desenvolvido por <span className="text-amber-500 font-semibold">GTS - Global Tech Software</span>
+              </span>
+              <span className="hidden sm:inline text-slate-700">|</span>
+              <span className="text-slate-500">Classificação 4.8 Estrelas de Satisfação</span>
             </div>
           </div>
         </div>
